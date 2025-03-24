@@ -4,18 +4,21 @@ body{
     margin: 0;
     padding: 0;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
 }
 
-h1{
-    text-align: center;
-    margin-top: 50px;
+h3{
+    font-size: 3em;
+    margin-bottom: 1em;
     color: #333;
-    font-size: 2em;
     font-weight: normal;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     letter-spacing: 1px;
     word-spacing: 2px;
     line-height: 1.5;
     text-transform: uppercase;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
 }
